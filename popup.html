@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Playlist Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>🔍 YouTube Playlist Search</h2>
+        
+        <div class="input-group">
+            <input type="text" id="playlistUrl" placeholder="Enter YouTube Playlist URL" autocomplete="off">
+        </div>
+        
+        <div class="input-group">
+            <input type="text" id="keyword" placeholder="Enter keyword to search videos" autocomplete="off">
+        </div>
+        
+        <button id="searchBtn" class="search-btn">
+            <span>🔍</span>
+            Search
+        </button>
+        
+        <div id="status-container">
+            <p id="errorMessage" class="error hidden"></p>
+            <div id="loading" class="loading hidden">🔍 Searching...</div>
+            <div id="progressIndicator" class="progress hidden">Fetching videos... 0/0</div>
+        </div>
+        
+        <ul id="results" class="results-list"></ul>
+    </div>
+    
+    <button id="themeToggle" class="theme-toggle">🌙 Dark Mode</button>
+    
+    <script src="popup.js"></script>
+</body>
+</html>

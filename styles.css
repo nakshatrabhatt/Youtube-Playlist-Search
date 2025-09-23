@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+body {
+    width: 350px;
+    padding: 15px;
+    font-family: 'Inter', sans-serif;
+    background-color: #121212;
+    color: #fff;
+    text-align: center;
+}
+
+.container {
+    background: #1e1e1e;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+input {
+    width: calc(100% - 16px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+    outline: none;
+}
+
+input::placeholder {
+    color: #bbb;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff3d00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #ff5722;
+}
+
+.hidden {
+    display: none;
+}
+
+#loading {
+    margin-top: 10px;
+    font-size: 14px;
+    color: default;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    text-align: left;
+}
+
+li {
+    background: #292929;
+    padding: 12px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+li a {
+    text-decoration: none;
+    color: #ff9800;
+    font-weight: 600;
+}
+
+li:hover {
+    background: #373737;
+}
+
+.highlight {
+    color: #ff9800; /* Subtle orange highlight */
+    font-size: 1.05em; /* Slightly bigger for emphasis */
+    font-weight: normal; /* Avoid full bold */
+}
+
+
+.video-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.video-item:hover {
+    background: #2a2a2a;
+}
+
+.video-thumbnail {
+    width: 80px;
+    height: 45px;
+    border-radius: 5px;
+}
+
+.video-title {
+    font-size: 14px;
+    font-weight: 600;
+    flex-grow: 1;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+:root {
+    --bg-color: #121212;
+    --container-bg: #1e1e1e;
+    --text-color: #fff;
+    --input-bg: #333;
+    --button-bg: #ff3d00;
+    --button-hover-bg: #ff5722;
+    --highlight-color: #ff9800;
+    --li-bg: #292929;
+    --li-hover-bg: #373737;
+}
+
+.light-mode {
+    --bg-color: #ffffff;
+    --container-bg: #f8f9fa;
+    --text-color: #000;
+    --input-bg: #ddd;
+    --button-bg: #007bff;
+    --button-hover-bg: #0056b3;
+    --highlight-color: #ff5722;
+    --li-bg: #eeeeee;
+    --li-hover-bg: #cccccc;
+}
+
+.light-mode li,
+.light-mode #errorMessage,
+.light-mode #results{
+    color: #000;
+}
+
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.container {
+    background: var(--container-bg);
+}
+
+input {
+    background-color: var(--input-bg);
+    color: var(--text-color);
+}
+
+button {
+    background-color: var(--button-bg);
+}
+
+button:hover {
+    background-color: var(--button-hover-bg);
+}
+
+li {
+    background: var(--li-bg);
+}
+
+li:hover {
+    background: var(--li-hover-bg);
+}
+
+.highlight {
+    color: var(--highlight-color);
+}
+
+.light-mode a.video-item {
+    color: #333 !important; /* Ensure link text is black */
+}
+
+.light-mode .video-title {
+    color: #000 !important; /* Ensure video title text is black */
+}
+
+.light-mode .highlight {
+    color: #8B4513 !important; /* Dark brown for better contrast */
+    font-weight: bold;
+}
