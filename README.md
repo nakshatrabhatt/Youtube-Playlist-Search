@@ -40,7 +40,7 @@ Perfect for playlists with **hundreds or even thousands of videos** — no more 
     ```javascript   
     const API_KEY = "YOUR_API_KEY_HERE";
     ```
-3. Open Chrome and navigate to: [`chrome://extensions/`](chrome://extensions/)
+3. Open Chrome and navigate to:     [`chrome://extensions/`](chrome://extensions/)
 
 4. Enable Developer Mode. Click Load unpacked and select the project folder.
 
