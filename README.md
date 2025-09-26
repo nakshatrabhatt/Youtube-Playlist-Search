@@ -33,20 +33,19 @@ Perfect for playlists with **hundreds or even thousands of videos** — no more 
    ```powershell
    git clone https://github.com/nakshatrabhatt/Youtube-Playlist-Search.git
    cd Youtube-Playlist-Search
-   ```
-Open popup.js and add your YouTube Data API v3 Key at the top:
+   
+2. Open popup.js and add your YouTube Data API v3 Key at the top:
     ```javascript   
     const API_KEY = "YOUR_API_KEY_HERE";
-    ```
-Open Chrome and navigate to:
+    
+3. Open Chrome and navigate to:
 
     ```
     chrome://extensions/
-    ```
 
-Enable Developer Mode.
+4. Enable Developer Mode.
 
-Click Load unpacked and select the project folder.
+    Click Load unpacked and select the project folder.
 
 🎬 Usage
 Open any YouTube playlist.
