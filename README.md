@@ -33,55 +33,60 @@ Perfect for playlists with **hundreds or even thousands of videos** — no more 
    ```powershell
    git clone https://github.com/nakshatrabhatt/Youtube-Playlist-Search.git
    cd Youtube-Playlist-Search
-   
+   ```
 2. Open popup.js and add your YouTube Data API v3 Key at the top:
     ```javascript   
     const API_KEY = "YOUR_API_KEY_HERE";
-    
+    ```
 3. Open Chrome and navigate to:
 
     ```
     chrome://extensions/
+    ```
 
 4. Enable Developer Mode.
 
     Click Load unpacked and select the project folder.
 
-🎬 Usage
-Open any YouTube playlist.
+## 🎬 Usage
 
-Click the extension icon.
+-Open any YouTube playlist.
 
-The playlist URL will auto-fill (or paste one manually).
+-Click the extension icon.
 
-Enter a keyword to search videos by title or description.
+-The playlist URL will auto-fill (or paste one manually).
 
-Results will appear instantly with:
+-Enter a keyword to search videos by title or description.
 
-Thumbnail preview
+-Results will appear instantly with:
 
-Publish date
+-Thumbnail preview
 
-Keyword highlights
+-Publish date
 
-🛣 Roadmap
-Planned improvements to make this tool even more powerful:
+-Keyword highlights
 
- Multi-key API rotation to handle quota limits.
+## 🛣 Roadmap
 
- Support for searching across entire YouTube channels, not just playlists.
+*Planned improvements to make this tool even more powerful:
 
- Advanced filters (e.g., date range, title only, description only).
+*Multi-key API rotation to handle quota limits.
 
- Export search results to CSV/JSON.
+*Support for searching across entire YouTube channels, not just playlists.
 
- Smarter caching for near-instant repeated searches.
+*Advanced filters (e.g., date range, title only, description only).
 
- Sleeker UI animations and transitions.
+*Export search results to CSV/JSON.
 
-🤝 Contributing
+*Smarter caching for near-instant repeated searches.
+
+*Sleeker UI animations and transitions.
+
+## 🤝 Contributing
+
 Contributions are welcome!
 Feel free to fork the repo, open issues, or submit pull requests.
 
-📜 License
+## 📜 License
+
 This project is licensed under the MIT License.
