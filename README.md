@@ -50,37 +50,37 @@ Perfect for playlists with **hundreds or even thousands of videos** — no more 
 
 ## 🎬 Usage
 
--Open any YouTube playlist.
+- Open any YouTube playlist.
 
--Click the extension icon.
+- Click the extension icon.
 
--The playlist URL will auto-fill (or paste one manually).
+- The playlist URL will auto-fill (or paste one manually).
 
--Enter a keyword to search videos by title or description.
+- Enter a keyword to search videos by title or description.
 
--Results will appear instantly with:
+- Results will appear instantly with:
 
--Thumbnail preview
+- Thumbnail preview
 
--Publish date
+- Publish date
 
--Keyword highlights
+- Keyword highlights
 
 ## 🛣 Roadmap
 
-*Planned improvements to make this tool even more powerful:
+* Planned improvements to make this tool even more powerful:
 
-*Multi-key API rotation to handle quota limits.
+* Multi-key API rotation to handle quota limits.
 
-*Support for searching across entire YouTube channels, not just playlists.
+* Support for searching across entire YouTube channels, not just playlists.
 
-*Advanced filters (e.g., date range, title only, description only).
+* Advanced filters (e.g., date range, title only, description only).
 
-*Export search results to CSV/JSON.
+* Export search results to CSV/JSON.
 
-*Smarter caching for near-instant repeated searches.
+* Smarter caching for near-instant repeated searches.
 
-*Sleeker UI animations and transitions.
+* Sleeker UI animations and transitions.
 
 ## 🤝 Contributing
 
