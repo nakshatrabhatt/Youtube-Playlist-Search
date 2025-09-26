@@ -23,7 +23,7 @@ Perfect for playlists with **hundreds or even thousands of videos** — no more 
   <img src="screenshots/dark-mode.png" width="45%" style="margin-left:10px;" />
 </p>
 <p align="center">
-  **Light Mode** &nbsp;&nbsp; | &nbsp;&nbsp; **Dark Mode**
+  <strong>Light Mode</strong> &nbsp;&nbsp; | &nbsp;&nbsp; <strong>Dark Mode</strong>
 </p>
 
 
