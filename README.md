@@ -17,13 +17,10 @@ Perfect for playlists with **hundreds or even thousands of videos** — no more 
 
 ## 📸 Screenshots
 
-**Light Mode**
-
-![Light Mode Screenshot](screenshots/light-mode.png)
-
-**Dark Mode**
-
-![Dark Mode Screenshot](screenshots/dark-mode.png)
+<p float="left">
+  <img src="screenshots/light-mode.png" width="45%" />
+  <img src="screenshots/dark-mode.png" width="45%" /> 
+</p>
 
 ---
 
@@ -38,11 +35,7 @@ Perfect for playlists with **hundreds or even thousands of videos** — no more 
     ```javascript   
     const API_KEY = "YOUR_API_KEY_HERE";
     ```
-3. Open Chrome and navigate to:
-
-    ```
-    chrome://extensions/
-    ```
+3. Open Chrome and navigate to: [`chrome://extensions/`](chrome://extensions/)
 
 4. Enable Developer Mode.
 
@@ -60,31 +53,38 @@ Perfect for playlists with **hundreds or even thousands of videos** — no more 
 
 - Results will appear instantly with:
 
-- Thumbnail preview
+    - Thumbnail preview
 
-- Publish date
+    - Publish date
 
-- Keyword highlights
+    - Keyword highlights
 
 ## 🛣 Roadmap
 
-* Planned improvements to make this tool even more powerful:
+Planned improvements to make this tool even more powerful:
 
-* Multi-key API rotation to handle quota limits.
+* [ ] Search already loaded videos instantly while new videos are still fetching
 
-* Support for searching across entire YouTube channels, not just playlists.
+* [ ] Allow updating or replacing the playlist without losing previous search results
 
-* Advanced filters (e.g., date range, title only, description only).
+* [ ] Preserve loaded videos even if the popup is accidentally closed
 
-* Export search results to CSV/JSON.
+* [ ] Multi-key API rotation to handle quota limits.
 
-* Smarter caching for near-instant repeated searches.
+* [ ] Support for searching across entire YouTube channels, not just playlists.
 
-* Sleeker UI animations and transitions.
+* [ ] Advanced filters (e.g., date range, title only, description only).
+
+* [ ] Export search results to CSV/JSON.
+
+* [ ] Smarter caching for near-instant repeated searches.
+
+* [ ] Sleeker UI animations and transitions.
 
 ## 🤝 Contributing
 
 Contributions are welcome!
+
 Feel free to fork the repo, open issues, or submit pull requests.
 
 ## 📜 License
