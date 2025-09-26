@@ -1,4 +1,6 @@
-const API_KEY = ""; 
+import API from "./config";
+
+const API_KEY = API; 
 
 const playlistInput = document.getElementById("playlistUrl");
 const keywordInput = document.getElementById("keyword");
