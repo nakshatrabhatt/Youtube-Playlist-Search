@@ -18,9 +18,10 @@ Perfect for playlists with **hundreds or even thousands of videos** — no more 
 ## 📸 Screenshots
 
 <p float="left">
-  <img src="screenshots/light-mode.png" width="45%" />
-  <img src="screenshots/dark-mode.png" width="45%" /> 
+  <img src="screenshots/light-mode.png" width="45%" style="margin-right:10px;" />
+  <img src="screenshots/dark-mode.png" width="45%" style="margin-left:10px;" />
 </p>
+
 
 ---
 
@@ -35,11 +36,11 @@ Perfect for playlists with **hundreds or even thousands of videos** — no more 
     ```javascript   
     const API_KEY = "YOUR_API_KEY_HERE";
     ```
-3. Open Chrome and navigate to: [`chrome://extensions/`](chrome://extensions/)
+3. Open Chrome and navigate to:
 
-4. Enable Developer Mode.
+    [`chrome://extensions/`](chrome://extensions/)
 
-    Click Load unpacked and select the project folder.
+4. Enable Developer Mode. Click Load unpacked and select the project folder.
 
 ## 🎬 Usage
 
