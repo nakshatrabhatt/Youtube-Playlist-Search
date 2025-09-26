@@ -17,7 +17,7 @@ Perfect for playlists with **hundreds or even thousands of videos** — no more 
 
 ## 📸 Screenshots
 
-<p float="left">
+<p float="center">
   <img src="screenshots/light-mode.png" width="45%" style="margin-right:10px;" />
   <span style="display:inline-block; vertical-align:middle; width:10px;">&nbsp;</span>
   <img src="screenshots/dark-mode.png" width="45%" style="margin-left:10px;" />
