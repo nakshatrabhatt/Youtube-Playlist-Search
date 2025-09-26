@@ -18,9 +18,11 @@ Perfect for playlists with **hundreds or even thousands of videos** — no more 
 ## 📸 Screenshots
 
 **Light Mode**
+
 ![Light Mode Screenshot](screenshots/light-mode.png)
 
 **Dark Mode**
+
 ![Dark Mode Screenshot](screenshots/dark-mode.png)
 
 ---
@@ -32,14 +34,11 @@ Perfect for playlists with **hundreds or even thousands of videos** — no more 
    git clone https://github.com/nakshatrabhatt/Youtube-Playlist-Search.git
    cd Youtube-Playlist-Search
 Open popup.js and add your YouTube Data API v3 Key at the top:
-
-js
-Copy code
-const API_KEY = "YOUR_API_KEY_HERE";
+ ```   
+ const API_KEY = "YOUR_API_KEY_HERE";
+```
 Open Chrome and navigate to:
 
-arduino
-Copy code
 chrome://extensions/
 Enable Developer Mode.
 
